@@ -1,3 +1,4 @@
-module.exports = function(){
-    
+module.exports = {
+    games: require('./module/games/_Games')
+
 }
