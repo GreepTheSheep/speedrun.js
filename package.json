@@ -1,0 +1,30 @@
+{
+  "name": "speedrun.js",
+  "version": "0.0.1",
+  "description": "speedrun.com API inplementation for Node.js apps",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreepTheSheep/speedrun.js.git"
+  },
+  "keywords": [
+    "speedrun.com",
+    "API",
+    "inplementation"
+  ],
+  "author": "Greep",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GreepTheSheep/speedrun.js/issues"
+  },
+  "homepage": "https://github.com/GreepTheSheep/speedrun.js#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "prompt": "^1.0.0"
+  }
+}
