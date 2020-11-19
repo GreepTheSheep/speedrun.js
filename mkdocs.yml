@@ -1,4 +1,6 @@
 site_name: speedrun.js
+repo_url: https://github.com/GreepTheSheep/speedrun.js/
+repo_name: GreepTheSheep/speedrun.js
 theme:
   name: null
   custom_dir: docs/mkdocs-material/material
@@ -19,3 +21,39 @@ theme:
   favicon: assets/images/favicon.png
   icon:
     logo: logo
+    repo: fontawesome/brands/github
+  palette:
+    - scheme: default
+      primary: teal
+      accent: deep purple
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+    - scheme: slate
+      primary: indigo
+      accent: light green
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+  plugins:
+    - search
+  extra:
+  social:
+    - icon: planet
+      link: https://greep.cf
+      name: Creator's website
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/GreepTheSheep
+      name: Follow the creator on Twitter
+    - icon: fontawesome/brands/github
+      link: https://github.com/GreepTheSheep
+      name: Follow the creator on Github
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/_fitzherbert_eugene
+      name: Follow the creator on Instagram
