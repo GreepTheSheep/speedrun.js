@@ -1,7 +1,7 @@
-const speedrun = require('../src/index.js')
+const speedrun = require('../')
 
-speedrun.games.getGameByAbbreviation('sm64').then(out=>{
-    console.log(out.names.international, out) // enjoy!
+speedrun.games.getGameByAbbreviation('hl2').then(out=>{
+    console.log(out.names.international) // hl2 will output Half-Life 2
 })
 
 speedrun.games.getGamesByName('Watch Dogs').then(out=>{
