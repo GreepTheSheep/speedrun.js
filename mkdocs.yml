@@ -23,18 +23,9 @@ theme:
     logo: logo
     repo: fontawesome/brands/github
   palette:
-    - scheme: default
-      primary: teal
-      accent: deep purple
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
-    - scheme: slate
-      primary: indigo
-      accent: light green
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
+   scheme: slate
+    primary: green
+    accent: teal
   features:
     - navigation.instant
     - navigation.tabs
@@ -44,16 +35,10 @@ theme:
   plugins:
     - search
   extra:
-  social:
-    - icon: planet
-      link: https://greep.cf
-      name: Creator's website
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/GreepTheSheep
-      name: Follow the creator on Twitter
-    - icon: fontawesome/brands/github
-      link: https://github.com/GreepTheSheep
-      name: Follow the creator on Github
-    - icon: fontawesome/brands/instagram
-      link: https://instagram.com/_fitzherbert_eugene
-      name: Follow the creator on Instagram
+    social:
+      - icon: fontawesome/brands/github
+        link: https://github.com/GreepTheSheep
+      - icon: fontawesome/brands/twitter
+        link: https://twitter.com/GreepTheSheep    
+      - icon: fontawesome/brands/instagram
+        link: https://instagram.com/_fitzherbert_eugene
