@@ -1,3 +1,4 @@
+site_name: speedrun.js
 theme:
   name: null
   custom_dir: docs/mkdocs-material/material
