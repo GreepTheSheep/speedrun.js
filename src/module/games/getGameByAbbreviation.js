@@ -1,3 +1,8 @@
+/**
+ * Get game informations
+ * @param {String} game - Game ID you want to get the infos from
+ * @returns {Promise <pending>} - Returned pending promise
+*/
 module.exports = async function(game){
     const fetch = require('node-fetch')
     const SPRoptions = require('../../options.json')

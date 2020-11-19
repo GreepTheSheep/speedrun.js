@@ -1,12 +1,12 @@
 /**
- * Search games
- * @param {String} game - Game name you want to search
+ * Get Derived Games of this game
+ * @param {String} game - Game ID you want to get derived games from
  * @returns {Promise <pending>} - Returned pending promise
 */
 module.exports = async function(game){
     const fetch = require('node-fetch')
     const SPRoptions = require('../../options.json')
-    const apiLink = SPRoptions.url + SPRoptions.apiLink + 'v' + SPRoptions.apiVersion + '/games?name=' + game.split(' ').join('%20')
+    const apiLink = SPRoptions.url + SPRoptions.apiLink + 'v' + SPRoptions.apiVersion + '/games/' + game + '/derived-games'
 
     var res = await fetch(apiLink)
     res = await res.json()
