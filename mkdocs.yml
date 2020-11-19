@@ -1,4 +1,4 @@
-site_name: Speedrun.js Documentation
+site_name: Speedrun.js
 repo_url: https://github.com/GreepTheSheep/speedrun.js/
 repo_name: GreepTheSheep/speedrun.js
 copyright: Docs by Greep
@@ -13,10 +13,6 @@ extra:
 theme:
   name: null
   custom_dir: docs/mkdocs-material/material
-
-  # 404 page
-  static_templates:
-    - 404.html
 
   # Necessary for search to work properly
   include_search_page: false
@@ -33,8 +29,8 @@ theme:
     repo: fontawesome/brands/github
   palette:
     scheme: slate
-    primary: green
-    accent: teal
+    primary: black
+    accent: deep purple
   features:
     - navigation.instant
     - navigation.tabs
