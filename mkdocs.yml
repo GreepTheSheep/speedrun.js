@@ -23,7 +23,7 @@ theme:
     logo: logo
     repo: fontawesome/brands/github
   palette:
-   scheme: slate
+    scheme: slate
     primary: green
     accent: teal
   features:
