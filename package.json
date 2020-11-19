@@ -22,10 +22,6 @@
   },
   "homepage": "https://github.com/GreepTheSheep/speedrun.js#readme",
   "dependencies": {
-    "fs": "0.0.1-security",
     "node-fetch": "^2.6.1"
-  },
-  "devDependencies": {
-    "prompt": "^1.0.0"
   }
 }
