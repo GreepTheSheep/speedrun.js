@@ -1,6 +1,15 @@
 site_name: speedrun.js
 repo_url: https://github.com/GreepTheSheep/speedrun.js/
 repo_name: GreepTheSheep/speedrun.js
+copyright: Docs by Greep
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/GreepTheSheep
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/GreepTheSheep    
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/_fitzherbert_eugene
 theme:
   name: null
   custom_dir: docs/mkdocs-material/material
@@ -34,11 +43,3 @@ theme:
     - search.highlight
   plugins:
     - search
-  extra:
-    social:
-      - icon: fontawesome/brands/github
-        link: https://github.com/GreepTheSheep
-      - icon: fontawesome/brands/twitter
-        link: https://twitter.com/GreepTheSheep    
-      - icon: fontawesome/brands/instagram
-        link: https://instagram.com/_fitzherbert_eugene
