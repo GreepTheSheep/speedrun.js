@@ -40,7 +40,7 @@ speedrunJsExamples()
 Refer to the [tests dir](https://github.com/GreepTheSheep/speedrun.js/tree/main/tests) for more examples
 
 ## Checklist to do
-[] Finish RAW API (get anything with functuons)
-[] Custom class to get exatly what you want
-[] Documentate as fast as possible
-[] ~~Beat [node-speedrun](https://github.com/SwitchbladeBot/node-speedrun)'s PB~~ (jk, you can use this lib while I make mine)
+- [ ] Finish RAW API (get anything with functuons)
+- [ ] Custom class to get exatly what you want
+- [ ] Documentate as fast as possible
+- [ ] ~~Beat [node-speedrun](https://github.com/SwitchbladeBot/node-speedrun)'s PB~~ (jk, you can use this lib while I make mine)
