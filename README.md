@@ -26,11 +26,11 @@ async function speedrunJsExamples(){
     var out;
 
     // Get game information:
-    out = await speedrun.games.getGameByAbbreviation('hl2')
+    out = await speedrun.raw.games.getGameByAbbreviation('hl2')
     console.log(out.names.international) // hl2 will output Half-Life 2
 
     // Search games and get information
-    out = await speedrun.games.getGamesByName('Watch Dogs')
+    out = await speedrun.raw.games.getGamesByName('Watch Dogs')
     console.log(out) // This will output an array of information containing Watch Dogs in the name
 }
 
@@ -39,3 +39,8 @@ speedrunJsExamples()
 
 Refer to the [tests dir](https://github.com/GreepTheSheep/speedrun.js/tree/main/tests) for more examples
 
+## Checklist to do
+[] Finish RAW API (get anything with functuons)
+[] Custom class to get exatly what you want
+[] Documentate as fast as possible
+[] ~~Beat [node-speedrun](https://github.com/SwitchbladeBot/node-speedrun)'s PB~~ (jk, you can use this lib while I make mine)
