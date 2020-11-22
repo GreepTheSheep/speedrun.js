@@ -2,7 +2,7 @@
 
 ## Welcome to speedrun.js !
 
-\_\_Welcome to the [speedrun.js](https://github.com/GreepTheSheep/speedrun.js) official documentation.\_\_ This module is a powerful [Node.js](https://nodejs.org/) module that allows you to easily interact with the [Speedrun.com API](https://speedrun.com/).
+Welcome to the [speedrun.js](https://github.com/GreepTheSheep/speedrun.js) official documentation. This module is a powerful [Node.js](https://nodejs.org/) module that allows you to easily interact with the [Speedrun.com API](https://speedrun.com/).
 
 * Object oriented
 * You can interact with anything
@@ -12,7 +12,9 @@
 
 **Node.js 12 or newer is recommended.**
 
-\`npm install speedrun.js\`
+```javascript
+npm install speedrun.js
+```
 
 ### Example usage
 
