@@ -2,6 +2,8 @@
 
 ## Welcome to speedrun.js !
 
+![GitHub package.json version](https://img.shields.io/github/package-json/v/GreepTheSheep/speedrun.js?logo=npm) ![npm](https://img.shields.io/npm/dt/speedrun.js?logo=npm) 
+
 Welcome to the [speedrun.js](https://github.com/GreepTheSheep/speedrun.js) official documentation. This module is a powerful [Node.js](https://nodejs.org/) module that allows you to easily interact with the [Speedrun.com API](https://speedrun.com/).
 
 * Object oriented
