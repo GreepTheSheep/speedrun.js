@@ -1,4 +1,4 @@
-const Speedrun = require('../')
+const Speedrun = require('../../')
 
 const spr = Speedrun.raw
 

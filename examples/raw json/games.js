@@ -1,12 +1,12 @@
-const Speedrun = require('../')
+const Speedrun = require('../../')
 
 const spr = Speedrun.raw
 
-spr.games.getGameByAbbreviation('hl2').then(out=>{
+spr.games.getGame('hl2').then(out=>{
     console.log(out.names.international) // hl2 will output Half-Life 2
 })
 
-spr.games.getGamesByName('Watch Dogs').then(out=>{
+spr.games.searchGames('Watch Dogs').then(out=>{
     console.log(out) // This will output all games containing Watch Dogs in the name
 })
 
