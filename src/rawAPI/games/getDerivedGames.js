@@ -1,6 +1,6 @@
 /**
  * Get Derived Games of this game
- * @param {String} game - Game ID you want to get derived games from
+ * @param {String} game - Game ID or abbreviation you want to get derived games from
  * @returns {Promise <pending>} - Returned pending promise
 */
 module.exports = async function(game){

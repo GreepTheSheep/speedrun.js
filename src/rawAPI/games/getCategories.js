@@ -1,6 +1,6 @@
 /**
  * Get speedrunning levels of this game
- * @param {String} game - Game ID you want to get the levels from
+ * @param {String} game - Game ID or abbreviation you want to get the levels from
  * @returns {Promise <pending>} - Returned pending promise
 */
 module.exports = async function(game){

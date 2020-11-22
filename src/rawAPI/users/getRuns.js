@@ -1,6 +1,6 @@
 /**
  * Get game World Record
- * @param {String} user - User ID you want to get the information from
+ * @param {String} user - User ID or screen name you want to get the information from
  * @returns {Promise <pending>} - Returned pending promise
 */
 module.exports = async function(user){
