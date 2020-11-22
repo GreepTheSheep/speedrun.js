@@ -43,4 +43,5 @@ Refer to the [tests dir](https://github.com/GreepTheSheep/speedrun.js/tree/main/
 - [ ] Finish RAW API (get anything with functuons)
 - [ ] Custom class to get exatly what you want
 - [ ] Documentate as fast as possible
+- [ ] Logo for the Readme and for the website
 - [ ] ~~Beat [node-speedrun](https://github.com/SwitchbladeBot/node-speedrun)'s PB~~ (jk, you can use this lib while I make mine)
