@@ -1,6 +1,6 @@
 # Home
 
-<div style="text-align: center">
+<div align="center">
     <h2>Welcome to speedrun.js !</h2>
     <p>
         <a href="https://npmjs.org/speedrun.js" target"_blank"><img src="https://nodei.co/npm/speedrun.js.png?downloads=true&stars=true" alt="NPM" /></a> 
