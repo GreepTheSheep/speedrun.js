@@ -1,8 +1,15 @@
 # Home
 
-## Welcome to speedrun.js !
-
-![GitHub package.json version](https://img.shields.io/github/package-json/v/GreepTheSheep/speedrun.js?logo=npm) ![npm](https://img.shields.io/npm/dt/speedrun.js?logo=npm) 
+<div style="text-align: center">
+    <h2>Welcome to speedrun.js !</h2>
+    <p>
+        <a href="https://npmjs.org/speedrun.js" target"_blank"><img src="https://nodei.co/npm/speedrun.js.png?downloads=true&stars=true" alt="NPM" /></a> 
+    </p>
+    <p>
+        <img src="https://img.shields.io/github/package-json/v/GreepTheSheep/speedrun.js?logo=npm" alt="Version" />
+        <img src="https://img.shields.io/npm/dt/speedrun.js?logo=npm" alt="NPM" />
+    </p> 
+</div>
 
 Welcome to the [speedrun.js](https://github.com/GreepTheSheep/speedrun.js) official documentation. This module is a powerful [Node.js](https://nodejs.org/) module that allows you to easily interact with the [Speedrun.com API](https://speedrun.com/).
 
