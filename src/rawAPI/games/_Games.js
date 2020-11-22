@@ -1,8 +1,6 @@
-const getGameByName = require('./getGamesByName');
-
 module.exports = {
-    getGameByAbbreviation: require('./getGameByAbbreviation'),
-    getGamesByName: require('./getGamesByName'),
+    getGame: require('./getGame'),
+    searchGames: require('./searchGames'),
     getLevels: require('./getLevels'),
     getCategories: require('./getCategories'),
     getDerivedGames: require('./getDerivedGames')
