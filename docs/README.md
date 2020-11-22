@@ -1,7 +1,5 @@
-# Home
-
 <div align="center">
-    <h2>Welcome to speedrun.js !</h2>
+    <h1>Welcome to speedrun.js !</h1>
     <p>
         <a href="https://npmjs.org/speedrun.js" target"_blank"><img src="https://nodei.co/npm/speedrun.js.png?downloads=true&stars=true" alt="NPM" /></a> 
     </p>
