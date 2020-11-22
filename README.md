@@ -2,6 +2,8 @@
 
 speedrun.com API library for Node.js apps
 
+[![NPM](https://nodei.co/npm/speedrun.js.png?downloads=true&stars=true)](https://npmjs.org/speedrun.js)
+
 [![GitHub issues](https://img.shields.io/github/issues/GreepTheSheep/speedrun.js?color=orange&logo=github)](https://github.com/GreepTheSheep/speedrun.js/issues) [![GitHub forks](https://img.shields.io/github/forks/GreepTheSheep/speedrun.js?logo=github)](https://github.com/GreepTheSheep/speedrun.js/network) [![GitHub stars](https://img.shields.io/github/stars/GreepTheSheep/speedrun.js?logo=github)](https://github.com/GreepTheSheep/speedrun.js/stargazers)
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/GreepTheSheep/speedrun.js?logo=npm) ![npm](https://img.shields.io/npm/dt/speedrun.js?logo=npm) [![Depfu](https://badges.depfu.com/badges/8fee0e78566b9755ff29b80e1429a1b6/overview.svg)](https://depfu.com/github/GreepTheSheep/speedrun.js?project_id=17774)
