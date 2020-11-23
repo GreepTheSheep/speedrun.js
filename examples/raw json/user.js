@@ -6,6 +6,10 @@ spr.users.getUser('Greep').then(out=>{
     console.log(out)
 })
 
+spr.users.getGuest('Alex').then(out=>{
+    console.log(out) // Get someone called Alex who is not registered on speedrun.com
+})
+
 spr.users.getPB('Greep').then(out=>{
     console.log(out) // Output latest runs (PB) done by this user
 })
