@@ -19,7 +19,7 @@ Welcome to the [speedrun.js](https://github.com/GreepTheSheep/speedrun.js) offic
 
 **Node.js 12 or newer is recommended.**
 
-```javascript
+```
 npm install speedrun.js
 ```
 
@@ -68,7 +68,7 @@ More examples are on our [examples directory](https://github.com/GreepTheSheep/s
 
 Before creating an issue, please ensure that it hasn't already been reported/suggested, and double-check this documentation.
 
-If you want to make a PR, please test it using ESLint or running a example before creating this PR. Thanks!
+If you want to make a PR, please test it using ESLint `npm test` or running a example before creating this PR. Thanks!
 
 ### Help
 

@@ -4,7 +4,7 @@
   "description": "speedrun.com API inplementation for Node.js apps",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx eslint src/."
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "homepage": "https://github.com/GreepTheSheep/speedrun.js#readme",
   "dependencies": {
     "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0"
   }
 }
