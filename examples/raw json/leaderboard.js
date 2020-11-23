@@ -6,6 +6,10 @@ spr.leaderboard.getLeaderboard('wd2', 'Any%').then(out=>{
     console.log(out)
 })
 
+spr.leaderboard.getLevelLeaderboard('smb', 'Light_Forest', '1').then(out=>{
+    console.log(out) // Get Leaderboard for map 1 of Light Forest level in Super Meat Boy
+})
+
 spr.leaderboard.getWR('smb', 'any%').then(out=>{
     console.log(out)
 })
