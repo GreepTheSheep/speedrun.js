@@ -1,6 +1,0 @@
-# Table of contents
-
-* [Home](./)
-
-
-
