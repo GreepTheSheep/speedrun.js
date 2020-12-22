@@ -1,49 +1,78 @@
-# speedrun.js
+<div align="center">
+    <h1>Welcome to speedrun.js !</h1>
+    <p>
+        <a href="https://npmjs.org/speedrun.js" target"_blank"><img src="https://nodei.co/npm/speedrun.js.png?downloads=true&stars=true" alt="NPM" /></a> 
+    </p>
+    <p>
+        <img src="https://img.shields.io/github/package-json/v/GreepTheSheep/speedrun.js?logo=npm" alt="Version" />
+        <img src="https://img.shields.io/npm/dt/speedrun.js?logo=npm" alt="NPM" />
+    </p> 
+</div>
 
-speedrun.com API library for Node.js apps
+Welcome to the [speedrun.js](https://github.com/GreepTheSheep/speedrun.js) official documentation. This module is a powerful [Node.js](https://nodejs.org/) module that allows you to easily interact with the [Speedrun.com API](https://speedrun.com/).
 
-[![NPM](https://nodei.co/npm/speedrun.js.png?downloads=true&stars=true)](https://npmjs.org/speedrun.js)
+* Object oriented
+* You can interact with anything
+* Fast and simple
 
-[![GitHub issues](https://img.shields.io/github/issues/GreepTheSheep/speedrun.js?color=orange&logo=github)](https://github.com/GreepTheSheep/speedrun.js/issues) [![GitHub forks](https://img.shields.io/github/forks/GreepTheSheep/speedrun.js?logo=github)](https://github.com/GreepTheSheep/speedrun.js/network) [![GitHub stars](https://img.shields.io/github/stars/GreepTheSheep/speedrun.js?logo=github)](https://github.com/GreepTheSheep/speedrun.js/stargazers)
+### Installation
 
-![GitHub package.json version](https://img.shields.io/github/package-json/v/GreepTheSheep/speedrun.js?logo=npm) ![npm](https://img.shields.io/npm/dt/speedrun.js?logo=npm) [![Depfu](https://badges.depfu.com/badges/8fee0e78566b9755ff29b80e1429a1b6/overview.svg)](https://depfu.com/github/GreepTheSheep/speedrun.js?project_id=17774)
+**Node.js 12 or newer is recommended.**
 
-![Read the Docs](https://img.shields.io/readthedocs/speedrunjs) ![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Fspeedrun.js.org)
-
-## Installation
-
-```text
-npm i speedrun.js
+```
+npm install speedrun.js
 ```
 
-## Usage
-
-This following example uses async/await, you can also use .then\(\)
+### Example usage
 
 ```javascript
-// Import the module:
-const speedrun = require("speedrun.js");
+const Speedrun = require('speedrun.js')
 
-async function speedrunJsExamples(){
-    var out;
+const spr = Speedrun.raw
 
-    // Get game information:
-    out = await speedrun.raw.games.getGameByAbbreviation('hl2')
-    console.log(out.names.international) // hl2 will output Half-Life 2
+// Get informations on a game by their abbreviation
+spr.games.getGame('hl2').then(out=>{
+    console.log(out); // This will output indormation about Half-Life 2
+});
 
-    // Search games and get information
-    out = await speedrun.raw.games.getGamesByName('Watch Dogs')
-    console.log(out) // This will output an array of information containing Watch Dogs in the name
-}
+// Get list of games and their information by their search
+spr.games.searchGames('Watch Dogs').then(out=>{
+    console.log(out) // This will output all games containing Watch Dogs in the name
+});
 
-speedrunJsExamples()
+// Get informations of a registered user
+spr.users.getUser('Greep').then(out=>{
+    console.log(out)
+});
+
+// Get latest runs (PB) done by this registered user
+spr.users.getPB('Greep').then(out=>{
+    console.log(out) 
+})
+
+// Get World Record
+spr.leaderboard.getWR('smb', 'any%').then(out=>{
+    console.log(out) // This will output the informations of the WR any% of Super Meat Boy (and not Super Mario Bros)
+})
 ```
 
-Refer to the [tests dir](https://github.com/GreepTheSheep/speedrun.js/tree/main/tests) for more examples
+More examples are on our [examples directory](https://github.com/GreepTheSheep/speedrun.js/tree/main/examples).
 
-## Checklist to do
-- [ ] Finish RAW API (get anything with functuons)
-- [ ] Custom class to get exatly what you want
-- [ ] Documentate as fast as possible
-- [ ] Logo for the Readme and for the website
-- [ ] ~~Beat [node-speedrun](https://github.com/SwitchbladeBot/node-speedrun)'s PB~~ (jk, you can use this lib while I make mine)
+### Links
+
+* Website
+* Source code \(module and website\)
+* NPM package
+
+### Contributing
+
+Before creating an issue, please ensure that it hasn't already been reported/suggested, and double-check this documentation.
+
+If you want to make a PR, please test it using ESLint `npm test` and running a example before creating this PR. Thanks!
+
+### Help
+
+If you don't understand something in the documentation, you are experiencing problems, or you just need a gentle nudge in the right direction, please don't hesitate to create a [issue](https://github.com/GreepTheSheep/speedrun.js/issues).
+
+
+
