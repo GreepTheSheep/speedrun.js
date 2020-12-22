@@ -1,13 +1,8 @@
-<div align="center">
-    <h1>Welcome to speedrun.js !</h1>
-    <p>
-        <a href="https://npmjs.org/speedrun.js" target"_blank"><img src="https://nodei.co/npm/speedrun.js.png?downloads=true&stars=true" alt="NPM" /></a> 
-    </p>
-    <p>
-        <img src="https://img.shields.io/github/package-json/v/GreepTheSheep/speedrun.js?logo=npm" alt="Version" />
-        <img src="https://img.shields.io/npm/dt/speedrun.js?logo=npm" alt="NPM" />
-    </p> 
-</div>
+# Welcome to speedrun.js !
+
+ [![NPM](https://nodei.co/npm/speedrun.js.png?downloads=true&stars=true)](https://npmjs.org/speedrun.js)
+
+ ![Version](https://img.shields.io/github/package-json/v/GreepTheSheep/speedrun.js?logo=npm) ![NPM](https://img.shields.io/npm/dt/speedrun.js?logo=npm)
 
 Welcome to the [speedrun.js](https://github.com/GreepTheSheep/speedrun.js) official documentation. This module is a powerful [Node.js](https://nodejs.org/) module that allows you to easily interact with the [Speedrun.com API](https://speedrun.com/).
 
@@ -15,15 +10,15 @@ Welcome to the [speedrun.js](https://github.com/GreepTheSheep/speedrun.js) offic
 * You can interact with anything
 * Fast and simple
 
-### Installation
+## Installation
 
 **Node.js 12 or newer is recommended.**
 
-```
+```text
 npm install speedrun.js
 ```
 
-### Example usage
+## Example usage
 
 ```javascript
 const Speedrun = require('speedrun.js')
@@ -58,21 +53,19 @@ spr.leaderboard.getWR('smb', 'any%').then(out=>{
 
 More examples are on our [examples directory](https://github.com/GreepTheSheep/speedrun.js/tree/main/examples).
 
-### Links
+## Links
 
 * Website
 * Source code \(module and website\)
 * NPM package
 
-### Contributing
+## Contributing
 
 Before creating an issue, please ensure that it hasn't already been reported/suggested, and double-check this documentation.
 
 If you want to make a PR, please test it using ESLint `npm test` and running a example before creating this PR. Thanks!
 
-### Help
+## Help
 
 If you don't understand something in the documentation, you are experiencing problems, or you just need a gentle nudge in the right direction, please don't hesitate to create a [issue](https://github.com/GreepTheSheep/speedrun.js/issues).
-
-
 
