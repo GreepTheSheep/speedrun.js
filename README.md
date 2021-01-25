@@ -8,7 +8,7 @@ speedrun.com API library for Node.js apps
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/GreepTheSheep/speedrun.js?logo=npm) ![npm](https://img.shields.io/npm/dm/speedrun.js?logo=npm) [![Depfu](https://badges.depfu.com/badges/8fee0e78566b9755ff29b80e1429a1b6/overview.svg)](https://depfu.com/github/GreepTheSheep/speedrun.js?project_id=17774)
 
-[![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Fspeedrun.js.org)](https://speedrun.js.org)
+[![Build Status](https://travis-ci.com/GreepTheSheep/speedrun.js.svg?branch=main)](https://travis-ci.com/GreepTheSheep/speedrun.js)
 
 ## Installation
 
