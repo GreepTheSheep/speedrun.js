@@ -6,7 +6,7 @@ speedrun.com API library for Node.js apps
 
 [![GitHub issues](https://img.shields.io/github/issues/GreepTheSheep/speedrun.js?color=orange&logo=github)](https://github.com/GreepTheSheep/speedrun.js/issues) [![GitHub forks](https://img.shields.io/github/forks/GreepTheSheep/speedrun.js?logo=github)](https://github.com/GreepTheSheep/speedrun.js/network) [![GitHub stars](https://img.shields.io/github/stars/GreepTheSheep/speedrun.js?logo=github)](https://github.com/GreepTheSheep/speedrun.js/stargazers)
 
-![GitHub package.json version](https://img.shields.io/github/package-json/v/GreepTheSheep/speedrun.js?logo=npm) ![npm](https://img.shields.io/npm/dt/speedrun.js?logo=npm) [![Depfu](https://badges.depfu.com/badges/8fee0e78566b9755ff29b80e1429a1b6/overview.svg)](https://depfu.com/github/GreepTheSheep/speedrun.js?project_id=17774)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/GreepTheSheep/speedrun.js?logo=npm) ![npm](https://img.shields.io/npm/dm/speedrun.js?logo=npm) [![Depfu](https://badges.depfu.com/badges/8fee0e78566b9755ff29b80e1429a1b6/overview.svg)](https://depfu.com/github/GreepTheSheep/speedrun.js?project_id=17774)
 
 [![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Fspeedrun.js.org)](https://speedrun.js.org)
 
