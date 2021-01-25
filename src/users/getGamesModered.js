@@ -5,7 +5,7 @@
 */
 module.exports = async function(user){
     const fetch = require('node-fetch')
-    const SPRoptions = require('../../options.json')
+    const SPRoptions = require('../options.json')
     var apiLink = SPRoptions.url + SPRoptions.apiLink + 'v' + SPRoptions.apiVersion + '/users/' + user
 
     var res = await fetch(apiLink,{headers: { 'User-Agent': SPRoptions.agent }})
@@ -13,7 +13,7 @@ module.exports = async function(user){
     res = Object(res.data)
     
 
-    apiLink = SPRoptions.url + SPRoptions.apiLink + 'v' + SPRoptions.apiVersion + '/runs?user=' + res.id
+    apiLink = SPRoptions.url + SPRoptions.apiLink + 'v' + SPRoptions.apiVersion + '/games?moderator=' + res.id
     res = await fetch(apiLink,{headers: { 'User-Agent': SPRoptions.agent }})
     res = await res.json()
     res = Object(res.data)

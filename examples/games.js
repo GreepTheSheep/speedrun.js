@@ -1,6 +1,4 @@
-const Speedrun = require('../../')
-
-const spr = Speedrun.raw
+const spr = require('../')
 
 spr.games.getGame('hl2').then(out=>{
     console.log(out.names.international) // hl2 will output Half-Life 2

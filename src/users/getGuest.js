@@ -5,7 +5,7 @@
 */
 module.exports = async function(guest){
     const fetch = require('node-fetch')
-    const SPRoptions = require('../../options.json')
+    const SPRoptions = require('../options.json')
     const apiLink = SPRoptions.url + SPRoptions.apiLink + 'v' + SPRoptions.apiVersion + '/guests/' + guest
 
     var res = await fetch(apiLink,{headers: { 'User-Agent': SPRoptions.agent }})

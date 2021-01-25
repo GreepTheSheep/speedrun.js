@@ -1,6 +1,4 @@
-const Speedrun = require('../../')
-
-const spr = Speedrun.raw
+const spr = require('../')
 
 spr.users.getUser('Greep').then(out=>{
     console.log(out)

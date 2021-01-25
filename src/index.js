@@ -1,3 +1,5 @@
 module.exports = {
-    raw: require('./rawAPI/raw')
+    games: require('./games/_Games'),
+    leaderboard: require('./leaderboard/_Leader'),
+    users: require('./users/_Users')
 }

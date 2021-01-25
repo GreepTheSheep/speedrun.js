@@ -6,7 +6,7 @@
 */
 module.exports = async function(game, category){
     const fetch = require('node-fetch')
-    const SPRoptions = require('../../options.json')
+    const SPRoptions = require('../options.json')
     const apiLink = SPRoptions.url + SPRoptions.apiLink + 'v' + SPRoptions.apiVersion + '/leaderboards/' + game + '/category/' + category.replace('%', '').split(' ').join('%20') + '?top=1&embed=players'
 
     var res = await fetch(apiLink,{headers: { 'User-Agent': SPRoptions.agent }})

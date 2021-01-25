@@ -1,6 +1,4 @@
-const Speedrun = require('../../')
-
-const spr = Speedrun.raw
+const spr = require('../')
 
 spr.leaderboard.getLeaderboard('wd2', 'Any%').then(out=>{
     console.log(out)
